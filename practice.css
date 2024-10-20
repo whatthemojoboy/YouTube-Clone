@@ -1,0 +1,69 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div {
+    box-shadow: 0px 0px 10px grey;
+    width: 450px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.inbox {
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pfp {
+    margin-left: 20px;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+.sender-pfp {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.details {
+    margin-left: 10px;
+}
+
+.details-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    margin: 0;
+}
+
+.final-text {
+    margin: 0;
+    color: rgb(117, 114, 114);
+}
+
+.subj-text {
+    margin-bottom: 0;
+}
+
+.time-sent {
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
